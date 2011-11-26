@@ -1,25 +1,36 @@
-# Require any additional compass plugins here.
+# ==============================================================================
+# GENERAL CONFIGURATION
+#
+# View all options here:
+# http://compass-style.org/help/tutorials/configuration-reference/
+# ==============================================================================
 
-# Set this to the root of your project when deployed:
-http_path = "/"
-css_dir = "stylesheets"
-sass_dir = "stylesheets/scss"
-images_dir = "images"
-javascripts_dir = "javascripts"
-fonts_dir = "fonts"
+# Require any additional compass plugins here.
 
 # You can select your preferred output style here (can be overridden via the command line):
 # output_style = :expanded or :nested or :compact or :compressed
 
-# To enable relative paths to assets via compass helper functions. Uncomment:
+# Enable relative paths to assets via compass helper functions.
 relative_assets = true
 
-# To disable debugging comments that display the original location of your selectors. Uncomment:
-# line_comments = false
+# ==============================================================================
+# COMPASS DIRECTORY CONFIGURATION
+# ==============================================================================
 
+# The root of all operations, must be set for Compass to work.
+http_path             = "/"
 
-# If you prefer the indented syntax, you might want to regenerate this
-# project again passing --syntax sass, or you can uncomment this:
-# preferred_syntax = :sass
-# and then run:
-# sass-convert -R --from scss --to sass stylesheets/sass scss && rm -rf sass && mv scss sass
+# Directory containing the SASS source files
+sass_dir              = "stylesheets/scss"
+
+# Directory where Compass dumps the generated CSS files
+css_dir               = "stylesheets"
+
+# Directory where font files use in font-face declarations are stored
+fonts_dir             = "fonts"
+
+# Directory where Compass stores the Grid image, and the sites images are stored
+images_dir            = "images"
+
+# Directory where the sites' JavaScript file are stored
+javascripts_dir       = "javascripts"
