@@ -8,18 +8,6 @@
 *
 *********************************************************************/
 
-/* Clearfix hack with a meaningful name */
-.cgroup:after {
-  clear: both;
-  content: " ";
-  display: block;
-  font-size: 0;
-  height: 0;
-  visibility: hidden;
-}
-
-html.ie7 .cgroup { zoom: 1; }
-
 .hidden { display: none; }
 
 /* Hide only visually, but have it available for screenreaders: h5bp.com/v */

@@ -1,0 +1,26 @@
+/*********************************************************************
+*
+*  Mixins Module
+*  Eduardo Shiota Yasuda
+*  contato@eshiota.com
+*  
+*  All general purpose mixins are defined here.
+*
+*********************************************************************/
+
+/*********************************************************************
+*  =Clearfix
+*********************************************************************/
+
+@mixin clearfix {
+  &:after {
+    clear: both;
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+  }
+  
+  zoom: 1;
+}
