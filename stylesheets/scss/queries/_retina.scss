@@ -1,0 +1,16 @@
+/*******************************************************************************
+*
+*  Media Queries » Retina Display
+*
+*  Query for high-density displays (2x pixel ratio)
+*
+*******************************************************************************/
+
+// These are used to set the correct background-size in retina display
+// sprites (size / 2)
+$RETINA-SPRITE-WIDTH  : 300px;
+$RETINA-SPRITE-HEIGHT : 300px;
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+  
+}

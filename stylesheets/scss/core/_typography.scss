@@ -1,0 +1,115 @@
+/*******************************************************************************
+*
+*  Core » Typography
+*  
+*  Contains all typographical elements styles. It was
+*  heavily based on Paul Irish's HTML5 Boilerplate.
+*
+*  http://html5boilerplate.com/
+*
+*******************************************************************************/
+
+/* 10px / 16px - 62.5% */
+body {
+  font: normal normal 62.5%/1.4em sans-serif;
+}
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ''; content: none; }
+
+abbr { text-transform: lowercase; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+pre, code, kbd, samp { font-family: monospace, sans-serif; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+del { text-decoration: line-through; }
+small { font-size: 85%; }
+strong, th { font-weight: bold; }
+sub { vertical-align: sub; font-size: smaller; }
+sup { vertical-align: super; font-size: smaller; }
+
+ul, ol {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  margin-bottom: 1.5em;
+  margin-left: 1.5em;
+}
+
+ol { list-style: inside decimal; }
+ul { list-style: inside disc; }
+
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+  font-size: 1em;
+  margin-bottom: 0;
+  margin-left: 1.5em;
+}
+
+ul p,
+ol p { font-size: 1em; }
+
+ul li,
+ol li { margin-bottom: 0.5em; }
+
+ul li li,
+ol li li { margin-bottom: 0; }
+
+p {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+p + p { margin-top: -0.3em; }
+
+pre { 
+  padding: 15px; 
+  white-space: pre; /* CSS2 */
+  white-space: pre-wrap; /* CSS 2.1 */
+  white-space: pre-line; /* CSS 3 (and 2.1 as well, actually) */
+  word-wrap: break-word; /* IE */
+}
+
+blockquote {
+  padding-left: 1.5em;
+  border-left: 3px solid #b55e5e;
+  margin-left: 4.5em;
+  font-size: 1.1em;
+  font-style: italic;
+  margin-bottom: 1.5em;
+}
+
+
+/*********************************************************************
+*  =Headers
+*********************************************************************/
+
+h1 {
+  font: normal normal 5.6em/1.2em sans-serif;
+  margin-bottom: 0.75em;
+}
+
+h2 {
+  font: normal normal 3.6em/0.8em sans-serif;
+  margin-bottom: 1em;
+  padding-top: 0.5em;
+}
+
+h3 {
+  font: normal normal 2.3em/1em sans-serif;
+  margin-bottom: 1em;
+  padding-top: 0.5em;
+}
+
+h4 {
+  font: normal bold 1.7em/1em sans-serif;
+  margin-bottom: 1em;
+  padding-top: 0.5em;
+}

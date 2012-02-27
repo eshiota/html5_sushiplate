@@ -12,41 +12,35 @@
 *
 *  http://html5boilerplate.com/
 *
-*  ==================================================================
-*  TABLE OF CONTENTS
-*  ==================================================================
-*  
-*  =Imports
-*  =Main structure
-*    ==Subitem
+*  This is a bootstrap file that loads all modules,
+*  generating a single CSS file.
 *
 ********************************************************************************/
 
 
 /*******************************************************************************
-*  =Imports
+*  =Bootstrap
 *******************************************************************************/
 @import "compass/css3";
-@import "config";
-@import "mixins";
-@import "definitions";
-@import "helpers";
 
+@import "base/config";
+@import "base/mixins";
+@import "base/helpers";
 
-/*******************************************************************************
-*  =Fonts
-*******************************************************************************/
-//@include font-face("Your font",
-//  font-files(
-//    "YOURFONT.woff", woff,
-//    "YOURFONT.otf", opentype,
-//    "YOURFONT.svg", svg
-//  ), "YOURFONT.eot"
-//);
+@import "core/reset";
+@import "core/basic";
+@import "core/forms";
+@import "core/tables";
+@import "core/typography";
 
-/*******************************************************************************
-*  =Main Structure
-*******************************************************************************/
+@import "layout/main";
 
-/*  ==Subitem
--------------------------------------------------*/
+//@import "ui/uiComponentName";
+
+//@import "vendors/vendorFolder/vendorCSS";
+
+@import "queries/wide";
+@import "queries/lt960";
+@import "queries/lt768";
+@import "queries/lt520";
+@import "queries/retina";
