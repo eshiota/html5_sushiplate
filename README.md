@@ -24,7 +24,7 @@ There you go. Enjoy the sushi!
 
 1. Incorporate HTML 5 Boilerplate's JS compiling solution for JS. Study RequireJS, maybe?
 2. Include a simple JS bootstrap using modules.
-3. Include a Media Query SCSS module with common resolution breakpoints.
+3. Tune Media Queries according to common needs
 
 ## Suggestions?
 
