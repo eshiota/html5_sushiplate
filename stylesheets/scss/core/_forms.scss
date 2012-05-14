@@ -1,7 +1,7 @@
 /*******************************************************************************
 *
 *  Core » Forms
-*  
+*
 *  Contains all form styles. It was
 *  heavily based on Paul Irish's HTML5 Boilerplate.
 *
@@ -29,9 +29,10 @@ textarea {
   border-right: 1px solid #aaa;
   border-left: 1px solid #aaa;
   border-bottom: 1px solid #ccc;
-  @include border-radius(3px);
-  @include box-sizing(border-box);
-  @include single-box-shadow(rgba(0,0,0,.3), 0, 1px, 3px, 0, inset);
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  border-radius: 3px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .3) inset;
   color: #444;
   font-size: 1em;
   padding: 0.5em 0.38em 0.38em;
@@ -41,7 +42,7 @@ textarea {
 
 input:focus,
 textarea:focus {
-  @include single-box-shadow(#0080ff, 0, 0, 5px);
+  box-shadow: 0 0 5px #0080ff;
 }
 
 ::-webkit-input-placeholder  { font-style: italic; }
