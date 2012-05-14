@@ -1,7 +1,7 @@
 /*******************************************************************************
 *
 *  Core » Definitions
-*  
+*
 *  Contains all main base styles and resets. It was
 *  heavily based on Paul Irish's HTML5 Boilerplate.
 *
@@ -25,8 +25,6 @@ select { color: $TEXT-COLOR; }
 *  =Links
 *********************************************************************/
 
-a:hover, a:active { outline: none; }
-
 a, a:visited {
   color: $LINK-COLOR;
   text-decoration: underline;
@@ -39,6 +37,8 @@ a:hover {
 a:active {
   color: $LINK-ACTIVE-COLOR;
 }
+
+a:focus { outline: thin dotted; }
 
 
 /*********************************************************************
@@ -58,6 +58,9 @@ img {
   -ms-interpolation-mode: bicubic;
   vertical-align: middle;
 }
+
+/* Correct overflow not hidden in IE9 */
+svg:not(:root) { overflow: hidden; }
 
 
 /*********************************************************************
